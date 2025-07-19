@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body, html{
+    padding: 0;
+    margin: 0;
+    line-height:1.35;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "bold";
+    src: url("./assets/Fonts/bold.woff2");
+}
+@font-face {
+    font-family: "reg";
+    src: url("./assets/Fonts/reg.woff2");
+}
+@font-face {
+    font-family: "light";
+    src: url("./assets/Fonts/light.woff2");
+}
+
+.icons_1{
+    background-image: url('https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png');
+    background-size: 275px;
+    background-repeat: no-repeat;
+}          
+.box-shadow{
+    box-shadow: 0 1px 0 0 rgba(255,255,255,.5),inset 0 1px 0 0 rgba(0,0,0,.07);
+    -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, .5), inset 0 1px 0 0 rgba(0, 0, 0, .07);
+}
+button, input{
+    transition: all .1s linear;
+    margin: 0;
+    vertical-align: middle;
+}
+li {
+    word-wrap: break-word;
+    margin: 0;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+    border: 0;
+}
