@@ -1,0 +1,117 @@
+{
+  "category_icons": [
+    {
+      "id": "icon_1",
+      "name": "Prime",
+      "img": "https://m.media-amazon.com/images/I/21r5rCvcAQL._SX100_SY100_.jpg"
+    },
+    {
+      "id": "icon_2",
+      "name": "Groceries",
+      "img": "https://m.media-amazon.com/images/I/21CJrl0e7+L._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_3",
+      "name": "Bazaar",
+      "img": "https://m.media-amazon.com/images/I/01nDWQ5XCSL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_4",
+      "name": "Mobiles",
+      "img": "https://m.media-amazon.com/images/I/21OQCcPV0tL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_5",
+      "name": "MX Player",
+      "img": "https://m.media-amazon.com/images/I/01SZyAw7k7L._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_6",
+      "name": "Fashion",
+      "img": "https://m.media-amazon.com/images/I/21QHbXU96AL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_7",
+      "name": "Deals",
+      "img": "https://m.media-amazon.com/images/I/312t+JcSoDL._SX100_SY100_.jpg"
+    },
+    {
+      "id": "icon_8",
+      "name": "Electronics",
+      "img": "https://m.media-amazon.com/images/I/11dcI5r-U6L._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_9",
+      "name": "Home",
+      "img": "https://m.media-amazon.com/images/I/31ICLWjUdHL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_10",
+      "name": "Travel",
+      "img": "https://m.media-amazon.com/images/I/21sUKve+LOL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_11",
+      "name": "Gift cards",
+      "img": "https://m.media-amazon.com/images/I/215lv40sqoL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_12",
+      "name": "Shop Live",
+      "img": "https://m.media-amazon.com/images/I/21GdO7XYcwL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_13",
+      "name": "Beauty",
+      "img": "https://m.media-amazon.com/images/I/21xXjwTSVIL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_14",
+      "name": "Everyday",
+      "img": "https://m.media-amazon.com/images/I/21-5XYasLKL._SX100_SY100_.png"
+    },
+    {
+      "id": "icon_15",
+      "name": "Movies",
+      "img": "https://m.media-amazon.com/images/I/21dR3LurIkL._SX100_SY100_.png"
+    }
+  ],
+  "hero_images": [
+    {
+      "id": "img_1",
+      "src": "https://m.media-amazon.com/images/I/613GmnI4iwL._SR1236,1080_.jpg"
+    },
+    {
+      "id": "img_2",
+      "src": "https://m.media-amazon.com/images/I/71BQxE49y2L._SR1236,1080_.jpg"
+    },
+    {
+      "id": "img_3",
+      "src": "https://m.media-amazon.com/images/I/61cKmS5t9iL._SR1236,1080_.jpg"
+    },
+    {
+      "id": "img_4",
+      "src": "https://m.media-amazon.com/images/I/61IJW5SAxcL._SR1236,1080_.jpg"
+    },
+    {
+      "id": "img_5",
+      "src": "https://m.media-amazon.com/images/I/91TiorJgh9L._SR1245,1089_.png"
+    },
+    {
+      "id": "img_6",
+      "src": "https://m.media-amazon.com/images/I/61dpTXFGumL._SR1236,1080_.jpg"
+    },
+    {
+      "id": "img_7",
+      "src": "https://m.media-amazon.com/images/I/91MMb2O5jlL._SR1245,1089_.png"
+    },
+    {
+      "id": "img_8",
+      "src": "https://m.media-amazon.com/images/I/71Ane7+IHHL._SR1236,1080_.jpg"
+    },
+    {
+      "id": "img_9",
+      "src": "https://m.media-amazon.com/images/I/61IyOVBYXXL._SR1236,1080_.jpg"
+    }
+  ]
+}

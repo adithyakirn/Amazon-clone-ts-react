@@ -14,7 +14,7 @@ if (!context) {
 }
 const {isMenuOpen, setIsMenuOpen} = context
     return (
-        <div className={`menuBar fixed top-0 right-0 left-0 bottom-0 z-10000 block transition-all duration-100 ease-in-out ${isMenuOpen ? "opacity-100 translate-x-0 z-1000" : "opacity-0 z-[-1] -translate-x-[300px]"}`}>
+        <div className={`menuBar fixed top-0 right-0 left-0 bottom-0 z-10000 block transition-all duration-200 ease-in-out ${isMenuOpen ? "opacity-100 translate-x-0 z-1000" : "opacity-0 z-[-1] -translate-x-[300px]"}`} >
             <div className="back-canvas bg-[rgba(0,0,0,.8)] absolute will-change-auto h-full w-full flex">
                 <div className="menu-content fixed bg-white flex-col h-full shadow-[4px_0_10px_0_rgba(0,0,0,.4)] will-change-transform flex min-w-[265px] max-w-[calc(100vw-50px)] w-[80vw]">
                     <div className="menu-content-wrapper relative overflow-x-hidden h-full flex shrink-10 overflow-y-scroll">
