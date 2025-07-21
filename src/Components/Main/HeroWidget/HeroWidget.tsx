@@ -11,6 +11,8 @@ type HeroResponse = {
 }
 const HeroWidget = () => {
     const [res, setRes] = useState<HeroTypes[]>([])
+    const [index, setIndex] = useState<number>(1)
+    const indexLength = 9
     useEffect(() => {
         const fetchData = async (): Promise<void> => {
             let isLoading = false
@@ -28,27 +30,33 @@ const HeroWidget = () => {
         }
         fetchData()
     }, [])
+    useEffect(() => {
+        let interval = setInterval(() => {
+            setIndex(i => (i + 1) % indexLength)
+        }, 5000);
+        return () => clearInterval(interval)
+    }, [indexLength])
     return (
         <>
             <div className="hero-widget-container h-[63vw] z-0 relative mb-0 overflow-visible ">
-                <div className="hero-wrapper h-[78vw] w-full overflow-hidden before:bg-[linear-gradient(-180deg,rgba(213,219,219,0)_45%,#E3E6E6_100%)] before:content-[''] before:absolute before:top-[50vw] before:bottom-0 before:left-0 before:right-0 before:w-full before:h-[28vw] before:z-1 before:pointer-none:">
-                    <ol className="hero-ol w-[3750px] m-0 list-none h-full whitespace-nowrap overflow-x-visible text-[#0f1111] tracking-[.4]">
-                        {res.map((el) => {
-                            return (
-                                <li key={el.id} className="hero-li w-[375px] m-0 visible text-center align-top overflow-hidden min-h-full list-none inline-block whitespace-normal tracking-normal break-words">
+                <div className="h-[63vw]">
+                    <div className="hero-wrapper h-[78vw] w-full overflow-hidden before:bg-[linear-gradient(-180deg,rgba(213,219,219,0)_45%,#E3E6E6_100%)] before:content-[''] before:absolute before:top-[50vw] before:bottom-0 before:left-0 before:right-0 before:w-full before:h-[28vw] before:z-1 before:pointer-none:">
+                        <ol className="hero-ol w-[3750px] m-0 list-none h-full whitespace-nowrap overflow-x-scroll text-[#0f1111] tracking-[.4] ">
+                            {res.length > 0 && (
+                                <li key={res[index].id} className="hero-li w-[375px] m-0 visible text-center align-top overflow-hidden min-h-full list-none inline-block whitespace-normal tracking-normal break-words">
                                     <div className="relative mt-0 pt-0 mb-[-25%] ml-auto mr-auto max-w-[1000px]  bg-white overflow-auto after:rounded-[.5rem] after:shadow-[inset_0_0_0_.3rem_#2162a1,inset_0_0_0_.6rem_#fff] after:content-[''] after:h-full after:left-0 after:absolute after:top-0 after:invisible after:w-full">
-                                        <img src={el.src} alt="img" />
+                                        <img src={res[index].src} alt={res[index].id} />
                                     </div>
                                 </li>
-                            )
-                        })}
-                    </ol>
+                            )}
+                        </ol>
+                    </div>
                 </div>
-            </div>
-            <div className="touch-scroller bottom-[17px] leading-0 relative block text-center">
-                <ul className="touch-ul border-0 leading-0 m-0 p-0 w-full list-disc text-center text-[#0f1111]">
-                    <Selector />
-                </ul>
+                <div className="touch-scroller bottom-[17px] leading-0 relative block text-center">
+                    <ul className="touch-ul border-0 leading-0 m-0 p-0 w-full list-disc text-center text-[#0f1111]">
+                        <Selector index={index} setIndex={setIndex} />
+                    </ul>
+                </div>
             </div>
         </>
     )

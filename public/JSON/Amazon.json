@@ -113,5 +113,161 @@
       "id": "img_9",
       "src": "https://m.media-amazon.com/images/I/61IyOVBYXXL._SR1236,1080_.jpg"
     }
+  ],
+  "deals_for_you": [
+    {
+      "id": "deal_1",
+      "src": "https://m.media-amazon.com/images/I/71erPxy1gvL._AC_SY310_.jpg",
+      "text": "65% off",
+      "hasRed": true
+    },
+    {
+      "id": "deal_2",
+      "src": "https://m.media-amazon.com/images/I/61PheP657EL._AC_SY310_.jpg",
+      "text":"60% off",
+      "hasRed": true
+    },
+    {
+      "id" : "deal_3",
+      "src" : "https://m.media-amazon.com/images/I/71XYOmBw9zL._AC_SY310_.jpg",
+      "text" : "39% off",
+      "hasRed" : true
+    },
+    {
+      "id" : "deal_4",
+      "src" : "https://m.media-amazon.com/images/I/616idSqXY0L._AC_SY310_.jpg",
+      "hasRed" : true,
+      "text" : "33% off"
+    }
+  ],
+  "get_upto_150": [
+    {
+      "id": "upto_1",
+      "src": "https://m.media-amazon.com/images/I/41ZJkJhOq4L._SR420,420_.jpg",
+      "text": "Casual shirts",
+      "hasRed": false
+    },
+    {
+      "id": "upto_2",
+      "src": "https://m.media-amazon.com/images/I/41V5ftA8TjL._SR420,420_.jpg",
+      "text":"Track pants & joggers",
+      "hasRed": false
+    },
+    {
+      "id" : "upto_3",
+      "src" : "https://m.media-amazon.com/images/I/417cx382G2L._SR420,420_.jpg",
+      "text" : "Wallets",
+      "hasRed" : false
+    },
+    {
+      "id" : "upto_4",
+      "src" : "https://m.media-amazon.com/images/I/41sh0RD7JEL._SR420,420_.jpg",
+      "hasRed" : false,
+      "text" : "Shop all Bazaar"
+    }
+  ],
+  "starting_99" : [
+    {
+      "id": "99_1",
+      "src": "https://m.media-amazon.com/images/I/41NpJtmsWyL._SR420,420_.jpg",
+      "text": "Chocolates",
+      "hasRed": false
+    },
+    {
+      "id": "99_2",
+      "src": "https://m.media-amazon.com/images/I/61KkhvZYTHL._SR420,420_.png",
+      "text":"Biscuits & snacks",
+      "hasRed": false
+    },
+    {
+      "id" : "99_3",
+      "src" : "https://m.media-amazon.com/images/I/41sHXyNwrLL._SR420,420_.jpg",
+      "text" : "Sweets",
+      "hasRed" : false
+    },
+    {
+      "id" : "99_4",
+      "src" : "https://m.media-amazon.com/images/I/41SOpPsxoUL._SR420,420_.jpg",
+      "hasRed" : false,
+      "text" : "Energy bars & trail mixes"
+    }
+  ],
+  "beuty&makeup" : [
+    {
+      "id": "1",
+      "src": "https://m.media-amazon.com/images/I/51G5SKtiwBL._SR420,420_.png",
+      "text": "Cleansers | Min. 30% off",
+      "hasRed": false
+    },
+    {
+      "id": "99_2",
+      "src": "https://m.media-amazon.com/images/I/51RzlT18-eL._SR420,420_.png",
+      "text":"Makeup | Min. 30% off",
+      "hasRed": false
+    },
+    {
+      "id" : "99_3",
+      "src" : "https://m.media-amazon.com/images/I/51b-SM5kpbL._SR420,420_.png",
+      "text" : "Luxury perfumes | Min. 20% off",
+      "hasRed" : false
+    },
+    {
+      "id" : "99_4",
+      "src" : "https://m.media-amazon.com/images/I/51qRoyCUkpL._SR420,420_.png",
+      "hasRed" : false,
+      "text" : "Sunscreens | Min. 35% off"
+    }
+  ],
+  "4+stars" : [
+    {
+      "id": "1",
+      "src": "https://m.media-amazon.com/images/I/71CtRyAxklL._AC_SY310_.jpg",
+      "text": "47% off",
+      "hasRed": true
+    },
+    {
+      "id": "99_2",
+      "src": "https://m.media-amazon.com/images/I/51VV+zLR66L._AC_SY310_.jpg",
+      "text":"20% off",
+      "hasRed": true
+    },
+    {
+      "id" : "99_3",
+      "src" : "https://m.media-amazon.com/images/I/51hVXrYsGkL._AC_SY310_.jpg",
+      "text" : "66% off",
+      "hasRed" : true
+    },
+    {
+      "id" : "99_4",
+      "src" : "https://m.media-amazon.com/images/I/71b90iUIqML._AC_SY310_.jpg",
+      "hasRed" : true,
+      "text" : "36% off"
+    }
+  ],
+  "recent" : [
+    {
+      "id": "1",
+      "src": "https://m.media-amazon.com/images/I/41pjqGpY1SL._MCnd_AC_.jpg",
+      "text": "MuscleBlaze 100% Clean Raw Whey Prot…",
+      "hasRed":  false
+    },
+    {
+      "id": "99_2",
+      "src": "https://m.media-amazon.com/images/I/41Vt2r2ImAL._MCnd_AC_.jpg",
+      "text":"MuscleBlaze Biozyme Gold 100% Whey Pr…",
+      "hasRed":  false
+    },
+    {
+      "id" : "99_3",
+      "src" : "https://m.media-amazon.com/images/I/417tvl95mhL._MCnd_AC_.jpg",
+      "text" : "MuscleBlaze Biozyme Iso-Zero, Low Carb W…",
+      "hasRed" :  false
+    },
+    {
+      "id" : "99_4",
+      "src" : "https://m.media-amazon.com/images/I/41W7o6Rgb3L._MCnd_AC_.jpg",
+      "hasRed" : false,
+      "text" : "MuscleBlaze High Protein Gold Gainer (…"
+    }
   ]
 }
