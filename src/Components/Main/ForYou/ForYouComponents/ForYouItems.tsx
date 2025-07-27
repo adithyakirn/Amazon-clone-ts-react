@@ -56,4 +56,3 @@ const ForYouItems = ({item} : ForYouItemsProp) => {
 }
 
 export default ForYouItems
-                                                               

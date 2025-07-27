@@ -6,6 +6,7 @@ import HeaderBottom from "./menuComponents/HeaderBottom"
 import HeaderTop from "./menuComponents/HeaderTop"
 import MenuSeparator from "./menuComponents/MenuSeparator"
 import { MenuContext } from "../../../Context/Context"
+import { Routes, Route } from "react-router"
 
 const Menu = () => {
 const context = useContext(MenuContext)
@@ -23,7 +24,7 @@ const {isMenuOpen, setIsMenuOpen} = context
                             <section className='menu-header flex flex-col justify-end bg-[#232f3e] text-white'>
                                 <HeaderTop />
                                 <HeaderBottom />
-                                <AmazonHome />
+                                <AmazonHome/>
                             </section>
                             <MenuSeparator isFirst={true}/>
                             <CategorySection item="Trending" />
