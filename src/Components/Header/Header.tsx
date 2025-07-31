@@ -11,7 +11,7 @@ const Header =({hasCat} : HeaderProps) => {
       <header className="header relative z-208 font-[inherit] text-xs leading-[1em] min-w-50">
         <NavBar/>
         <SearchBar/>
-        {!hasCat && <CategoryNav/>}
+        {hasCat && <CategoryNav/>}
         <LocationBar/>
       </header>
     </>

@@ -1,6 +1,6 @@
 import Category from "./Category/Category"
 import DashBoard from "./DashBoard/DashBoard"
-import Footer from "./Footer/Footer"
+import Footer from "../Footer/Footer"
 import ForYou from "./ForYou/ForYou"
 import HeroWidget from "./HeroWidget/HeroWidget"
 

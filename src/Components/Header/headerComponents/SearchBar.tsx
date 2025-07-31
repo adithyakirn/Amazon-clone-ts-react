@@ -4,7 +4,7 @@ const SearchBar = () => {
     return (
         <div className="nav-search-bar flex h-12.5 ">
             <form action="" className="nav-searchbar bg-[#232f3e] block p-[2px_10px_5px_10px] relative h-12.5 w-full border-[rgba(0,0,0,.05)] border-b-1 flex-1 z-[inherit] mb-0">
-                <div className="fill w-auto overflow-hidden whitespace-nowrap rounded-[8px_12px_12px_8px] h-[44px] m-0 relative bg-white">
+                <div className="fill w-auto overflow-hidden whitespace-nowrap rounded-[8px_12px_12px_8px] h-[44px] m-0 font-normal relative bg-white">
                     <input placeholder='Search Amazon.in' type="text" id="nav-search" className=" absolute top-0 left-0 w-full h-full block p-[0_95px_0_10px] text-black text-[15px] font-[reg] border-0 outline-0 leading-normal bg-white" />
                 </div>
                 <div className="serch-right absolute top-0 right-0 z-1 flex w-auto">

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Menu />
-      <Header hasCat={false}/>
+      <Header hasCat={true}/>
       <Main/>
     </>
   )

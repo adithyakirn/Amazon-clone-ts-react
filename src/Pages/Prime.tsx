@@ -4,7 +4,7 @@ import PrimeMain from "../Components/Prime/PrimeMain"
 const Prime = () => {
   return (
     <>
-        <Header hasCat={true}/>
+        <Header hasCat={false}/>
         <PrimeMain/>
     </>
   )
