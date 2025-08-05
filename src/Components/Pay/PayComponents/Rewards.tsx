@@ -1,4 +1,5 @@
 import RewardsDash from "./RewardsDash"
+import Slider from "./Slider"
 
 const Rewards = () => {
   return (
@@ -21,7 +22,7 @@ const Rewards = () => {
         img="https://m.media-amazon.com/images/G/31/img17/APay_Rewards/Rewards_Logo/Widget_Scratch_Card.svg" 
         sub="0"/>
         </div>
-        <div className="rounded-[8px] flex-col flex bg-[#f4f4f5] gap-2 font-[reg] p-[0_12px] relative overflow-hidden min-h-[32px] "></div>
+        <Slider/>
     </div>
     </div>
   )

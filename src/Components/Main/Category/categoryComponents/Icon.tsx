@@ -13,9 +13,9 @@ const Icon = () => {
   const [res, setRes] = useState<CategoryIcon[]>([])
 useEffect(() => {
   const fetchData = async (): Promise<void> => {
-    let isLoading = false
+    // let isLoading = false
     try {
-      isLoading = true
+      // isLoading = true
       const data = await fetch("./JSON/Amazon.json")
       const res :CategoryResponse = await data.json()
       setRes(res.category_icons)
@@ -24,7 +24,7 @@ useEffect(() => {
       console.error(error);
     }
     finally {
-      isLoading = false
+      // isLoading = false
     }
   }
   fetchData()

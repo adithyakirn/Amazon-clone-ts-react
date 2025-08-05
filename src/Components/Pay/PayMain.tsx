@@ -1,10 +1,10 @@
-import PayDashIndi from "../PayDashIndi"
-import Rewards from "./Rewards"
+import PayDashIndi from "./PayComponents/PayDashIndi"
+import Rewards from "./PayComponents/Rewards"
 
 const PayMain = () => {
   return (
     <>
-        <div className="pay-page w-full ">
+        <div className="pay-page w-full h-full">
             <div className="pay-sticker m-0 ">
                 <a href="/" className="redirect-link">
                 <img alt="amazon_pay" src="https://m.media-amazon.com/images/G/31/apay/dashboard/apay-sticker-mobile-t1._CB433219857_.png"/>

@@ -1,6 +1,6 @@
 type SelectorProp = {
     index : number;
-    setIndex : any;
+    setIndex : (index: number) => void
 }
 const Selector = ({index, setIndex} : SelectorProp) => {
   return (
